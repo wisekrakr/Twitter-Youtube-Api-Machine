@@ -4,7 +4,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 searchSpecific(
-	params = {q: 'wisekrakr', count: 3}	
+	params = {q: 'search query', count: 3}	
 	);
 
 function searchSpecific(params){
