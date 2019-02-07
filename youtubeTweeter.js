@@ -13,7 +13,7 @@ setInterval(automatedTweet, 1000*60*60);
 
 function automatedTweet(){		
 	
-	search('wisekrakr', opts, function(err, results) {
+	search('search query', opts, function(err, results) {
 		
 		var randomVideo = results[Math.floor(Math.random() * results.length)];
 		var randomVideoLink = randomVideo.link;	
