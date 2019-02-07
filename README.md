@@ -25,11 +25,11 @@ First we search for the right videos:
 		  var randomVideoLink = randomVideo.link;	
 		  var videoDescription = randomVideo.description;		
 
-      I create a function to get that info and to place a within a tweet later on.
+      //I create a function to get that info and to place a within a tweet later on.
       
       function setPostData(err, data, response){}
 
-      and finally: 
+      //and finally: 
 
       T.post('statuses/update', postParams, setPostData) // postParams = text to be posted, setPostData = link of video.
 }
