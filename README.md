@@ -1,6 +1,8 @@
 # Twitter-Youtube-Api-Machine
 A Voltron that uses both twitter and youtube api's, to search for videos and tweet about them.
 
+Use youtubeTweeter.js to do the following.
+
 How I did it:
 
 On https://www.npmjs.com/ got: twit api and youtube-search api
@@ -36,3 +38,5 @@ First we search for the right videos:
 
 NEXT STEPS: Find a way to introduce tags of videos to tweet.
             Automated responses to tweets (stream.)
+	    
+I also included some simple .js files where you can see the steps I took to get to this Voltron. 
