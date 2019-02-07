@@ -19,9 +19,15 @@ First we search for the right videos:
   
     search('searchterm', opts, function(err, results) {
 
-      within these brackets I search for what I want from that particular video (link, description, title)
+      //within these brackets I search for what I want from that particular video (link, description, title)
+      
+      var randomVideo = results[Math.floor(Math.random() * results.length)];
+		  var randomVideoLink = randomVideo.link;	
+		  var videoDescription = randomVideo.description;		
 
       I create a function to get that info and to place a within a tweet later on.
+      
+      function setPostData(err, data, response){}
 
       and finally: 
 
