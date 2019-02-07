@@ -7,7 +7,7 @@ How I did it:
 
 On https://www.npmjs.com/ got: twit api and youtube-search api
 
-Via node.js and cmd-prompt init these api's (npm install <name> -s).
+Via node.js and cmd-prompt init these api's (npm install twit -s).
 Create a new .js file in any text editor.  
 In this file I create new variables:
   
