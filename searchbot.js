@@ -5,7 +5,7 @@ var config = require('./config');
 var T = new Twit(config);
 
 var searchParams = { 
-	q: 'wisekrakr', 
+	q: 'search query', 
 	count: 5
 }
 
