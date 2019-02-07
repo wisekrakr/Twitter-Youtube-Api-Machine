@@ -1,0 +1,22 @@
+{
+  "name": "npm_demo",
+  "version": "1.0.0",
+  "description": "a demonstration",
+  "main": "bot.js",
+  "dependencies": {
+    "googleapis": "^36.0.0",
+    "twit": "^2.2.11",
+    "youtube-search": "^1.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "demo",
+    "bot",
+    "wisehakr"
+  ],
+  "author": "wisehakr",
+  "license": "ISC"
+}
