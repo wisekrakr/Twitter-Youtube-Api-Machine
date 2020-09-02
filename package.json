@@ -4,7 +4,7 @@
   "description": "a demonstration",
   "main": "bot.js",
   "dependencies": {
-    "googleapis": "^36.0.0",
+    "googleapis": "^39.1.0",
     "twit": "^2.2.11",
     "youtube-search": "^1.1.4"
   },
